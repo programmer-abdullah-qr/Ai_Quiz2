@@ -14,3 +14,14 @@ Total_marks = Subject_marks[0]+Subject_marks[1]+Subject_marks[2]+Subject_marks[3
 print ("Total mark is :", Total_marks)
 Averge = Total_marks/2
 print("Averge :",Averge)
+#higest Division
+if(Subject_marks[0]>=Subject_marks[1]and Subject_marks[0]>=Subject_marks[2]and Subject_marks[0]>=Subject_marks[3]and Subject_marks[0]>=Subject_marks[4]):
+    print("Highest marks in 1st subject :",Subject_marks[0])
+elif( Subject_marks[1]>=Subject_marks[2]and Subject_marks[1]>=Subject_marks[3]and Subject_marks[1]>=Subject_marks[4]):
+    print("Highest marks in 2nd subject :",Subject_marks[1])
+elif(Subject_marks[2]>=Subject_marks[3]and Subject_marks[2]>=Subject_marks[4]):
+    print("Highest marks in 3rd subject :",Subject_marks[2])
+elif( Subject_marks[3]>=Subject_marks[4]):
+    print("Highest marks in 4rt subject :",Subject_marks[3])
+else:
+    print("Highest marks in 4rt subject :",Subject_marks[4])
