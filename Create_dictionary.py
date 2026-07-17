@@ -1,0 +1,12 @@
+info={}
+info.update({"Name":input("Enter a name :")})
+info.update({"Age":input("Enter a age:")})
+info.update({"City":input("Enter a City:")})
+info.update({"Favourite_language":input("Enter a Favourite language: ")})
+print(len(info))
+print(type(info))
+print(info)
+print("Name is:",info["Name"])
+print("Age is:",info["Age"])
+print("city is:",info["City"])
+print("Favourti language is :",info["Favourite_language"])
