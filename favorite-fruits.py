@@ -1,0 +1,6 @@
+set=set()
+set.add(input("Enter a 1st fruit"))
+set.add(input("Enter a 2nd fruit"))
+set.add(input("Enter a 3rd fruit"))
+set.add(input("Enter a 4rt fruit"))
+print(set)
