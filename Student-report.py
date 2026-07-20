@@ -1,8 +1,7 @@
 student_report={}
-student_report["Name"]=[input("Enter a Name :")]
-student_report["Age"]=[input("Enter a Age :")]
 student_report={
-
+       "Name":input("Enter a Name :"),
+       "Age":input("Enter a Age :"),
     "Marks":{
      "Math":input("Enter a Math marks:"),
      "Computer":input("Enter a Computer marks:"),
@@ -12,4 +11,5 @@ student_report={
 
     }
 }
-print("Cmputer :",student_report["Marks"]["Computer"])
+print("Computer :",student_report["Marks"]["Computer"])
+print(len(student_report))
